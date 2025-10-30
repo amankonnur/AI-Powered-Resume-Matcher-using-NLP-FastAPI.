@@ -42,8 +42,9 @@ It extracts, analyzes, and computes the **semantic similarity** between resumes 
    git clone https://github.com/<your-username>/ai-resume-matcher.git
    cd ai-resume-matcher
 
-
-<h2>📸 Project Screenshots</h2>
+##Run commands
+   '''bash
+   uvicorn main:app --reload & streamlit run app.py
 
 ## 📸 Project Screenshots
 
