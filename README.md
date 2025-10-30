@@ -45,7 +45,11 @@ It extracts, analyzes, and computes the **semantic similarity** between resumes 
 
 <h2>📸 Project Screenshots</h2>
 
-<p align="center">
-  <img src="ai_resume_matcher/images/image.png" alt="Screenshot 1" width="45%"/>
-  <img src="ai_resume_matcher/images/image2.png" alt="Screenshot 2" width="45%"/>
-</p>
+## 📸 Project Screenshots
+
+### Interface Preview
+![Resume Matcher Screenshot 1](ai_resume_matcher/images/image2.png)
+
+### Match Result View
+![Resume Matcher Screenshot 2](ai_resume_matcher/images/image1.png)
+
