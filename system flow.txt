@@ -1,0 +1,30 @@
+[User Uploads Resume (PDF)] 
+        ↓
+[Resume Parsing] 
+→ extract text, skills, education, experience using pdfplumber/spaCy
+        ↓
+[Text Cleaning & Preprocessing]
+→ remove stopwords, punctuation, lemmatize text
+        ↓
+[Embedding Generation]
+→ convert text into numerical vectors using Sentence-Transformers/BERT
+        ↓
+[Job Description Input]
+→ HR uploads or selects a job description (JD)
+        ↓
+[JD Preprocessing & Embedding]
+→ same text cleaning + embedding applied to JD
+        ↓
+[Similarity Matching]
+→ compute cosine similarity between Resume vector and JD vector
+        ↓
+[Scoring & Ranking]
+→ generate match score (0–100%) and rank candidate/job fit
+        ↓
+[Feedback Generation]
+→ highlight missing skills or suggest improvements (optional using LLM)
+        ↓
+[Results Display]
+→ frontend shows: Match %, key strengths, suggested improvements
+        ↓
+[Optional: Store Results in DB / Export Report]
