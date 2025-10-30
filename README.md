@@ -35,15 +35,15 @@ It extracts, analyzes, and computes the **semantic similarity** between resumes 
 
 ---
 
-## ⚙️ Installation & Setup
+## ⚙️ Installation & Setup & Run
 
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/<your-username>/ai-resume-matcher.git
    cd ai-resume-matcher
 
-##Run commands
-   '''bash
+2. **Run commands**
+   ```bash
    uvicorn main:app --reload & streamlit run app.py
 
 ## 📸 Project Screenshots
